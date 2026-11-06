@@ -1,0 +1,55 @@
+{
+  "quality": {
+    "demand_rows": 31390,
+    "generation_rows_in_snapshot": 31392,
+    "matched_rows": 31390,
+    "unmatched_demand_rows": 0,
+    "missing_intensity_rows": 0,
+    "first_utc": "2025-01-01 00:00:00+00:00",
+    "last_utc": "2026-10-16 22:30:00+00:00",
+    "clock_change_period_counts": {
+      "2025-03-30": 46,
+      "2025-10-26": 50,
+      "2026-03-29": 46
+    }
+  },
+  "forecast": {
+    "validation": {
+      "rows": 8688,
+      "model": {
+        "mae_mw": 302.3,
+        "rmse_mw": 396.4,
+        "wape_pct": 1.13
+      },
+      "persistence": {
+        "mae_mw": 705.1,
+        "rmse_mw": 919.4,
+        "wape_pct": 2.65
+      }
+    },
+    "test": {
+      "rows": 5182,
+      "model": {
+        "mae_mw": 294.0,
+        "rmse_mw": 378.0,
+        "wape_pct": 1.29
+      },
+      "persistence": {
+        "mae_mw": 619.8,
+        "rmse_mw": 795.8,
+        "wape_pct": 2.72
+      }
+    }
+  },
+  "scenario": {
+    "days": 653,
+    "daytime_lower_days_pct": 90.7,
+    "median_exposure_delta_kg_per_mwh": 55.2,
+    "mean_exposure_delta_kg_per_mwh": 53.5
+  },
+  "source_as_of": "2026-11-06",
+  "definitions": {
+    "forecast": "30-minute-ahead rolling forecast; 2025 train, Jan-Jun 2026 validation, Jul-Oct 2026 test",
+    "scenario": "Illustrative historical average-intensity exposure for 1 MWh/day; not causal avoided emissions"
+  }
+}
