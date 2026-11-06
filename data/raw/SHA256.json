@@ -1,0 +1,14 @@
+{
+  "demand_2025.csv": {
+    "sha256": "8b8be946bbb084bc28fbf95a71fad0fceb5543b98e02755235130a42beaee4e0",
+    "bytes": 1869771
+  },
+  "demand_2026.csv": {
+    "sha256": "0d4e3086b0c6791d36de67ca2c1fb5dece36eba168eb2dc0c671b381499b4a5f",
+    "bytes": 1479754
+  },
+  "generation_mix_2025_2026.csv": {
+    "sha256": "52dafa5950c9533028285dbbd903ffbe693ef686eca49af651c072c3d1f368b3",
+    "bytes": 6516457
+  }
+}
